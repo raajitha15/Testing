@@ -1,0 +1,63 @@
+/*Q1.what is the mistake in the code?*/
+class	Testing 
+{
+	public static void main(String[] args) 
+	{
+		int i=0;
+		for(i=0;i<=100;i++)//before for loop was written like for(i=0;i>=100;--i) output is negative infinity.
+		{
+		System.out.println(i);
+		}
+	}
+}
+
+/*
+Q2.Radom Crashes: 
+to trak down the issue we should start with the learning of the application.
+like for eg:
+1. who is running the application?
+2. with which launague it is used?
+3. what are they doing with the application?
+4. what kind of application is that?
+5. how many users are used the application at a same time?
+if the crashers does not takes place at a same place it is possible to link 
+to specific components of scenarios.
+
+Q3. Chess Test:
+1. check with the positive integer of x.
+2. check with the positive integer of y.
+3. check with the negative integer of x.
+4. check with the negative integer of y.
+5. check with the white spaces.
+6. check with the black spaces.
+7. check when black is moved.
+8. check when the white is moved.
+9.check with the chess board.
+
+Q4.No Test Tools:
+1. response time
+2. through put
+3. resources utilization
+4. max load that system can bear
+
+Q5. Test a Pen:
+1. what kind of pen?
+2. is it used for only papers or other surfaces?
+3. who is going to use it?
+4. how much ink is it present?
+5. who munch days it take to complete thr ink?
+6. how much smooth oit will write?
+7. how much dark it will write?
+8. is pen is linking?
+
+Q6. Test an ATM?
+1. who is going to use the ATM.
+2. what are they going to use it for?
+3. what tools do we have to test?
+4. do we have access to the code or just the ATM machine?
+5. is the ATM manchine is scanning the card?
+6. is Atm manchine is giving the correct money how much customer is asked?
+7. is manchine is giving the correct answers what user is questions?*/
+
+
+
